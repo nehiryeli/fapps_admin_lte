@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .a {
+        fill: #004990;
+      }
+
+      .b, .c {
+        fill: #fff;
+      }
+
+      .c {
+        font-size: 60px;
+        font-family: AlrightSans-Regular, Alright Sans;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="0.36" y="-1.78" width="139.68" height="134.72"/>
+    <path class="b" d="M140.39,133.74H0V-2.57H140.39ZM.71,132.15h139V-1H.71Z"/>
+  </g>
+  <text class="c" transform="translate(27.21 84.56)">SU</text>
+</svg>

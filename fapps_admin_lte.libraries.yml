@@ -1,0 +1,25 @@
+# Global stylings, css. These will be loaded on every pages.
+global-styling:
+  version: 1.0
+  css:
+    base:
+      node_modules/admin-lte/dist/css/alt/adminlte.core.css: {}
+    layout:
+      node_modules/admin-lte/dist/css/alt/adminlte.pages.css: {}
+    component:
+      node_modules/admin-lte/dist/css/alt/adminlte.components.css: {}
+      node_modules/admin-lte/dist/css/alt/adminlte.extra-components.css: {}
+      node_modules/admin-lte/dist/css/alt/adminlte.plugins.css: {}
+    theme:
+      css/style.css: {}
+
+# Global Javascripts. These will be loaded on every pages.
+global-scripts:
+  version: 1.0
+  js:
+    node_modules/admin-lte/dist/js/adminlte.js: {}
+
+  dependencies:
+    - core/drupal
+    - core/jquery
+

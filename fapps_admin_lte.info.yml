@@ -1,6 +1,6 @@
 name: FAPPS AdminLTE
 type: theme
-base theme: stable
+base theme: false
 description: 'FAPPS default theme'
 package: Core
 # Define theme core

@@ -10,6 +10,7 @@ global-styling:
       node_modules/admin-lte/dist/css/alt/adminlte.components.css: {}
       node_modules/admin-lte/dist/css/alt/adminlte.extra-components.css: {}
       node_modules/admin-lte/dist/css/alt/adminlte.plugins.css: {}
+      node_modules/admin-lte/plugins/fontawesome-free/css/all.css: {}
     theme:
       css/style.css: {}
 

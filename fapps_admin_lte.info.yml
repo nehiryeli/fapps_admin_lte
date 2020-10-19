@@ -15,6 +15,7 @@ regions:
   header_top: 'Header Top'
   site_branding: 'Site Branding'
   primary_menu: 'Primary menu'
+  left_menu: 'Left menu'
   search_box: 'Full Page Search'
   page_top: 'Page top'
   page_bottom: 'Page bottom'

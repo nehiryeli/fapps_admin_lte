@@ -1,0 +1,21 @@
+<?php
+
+use Drupal\user\Entity\User;
+
+/**
+ * Implements hook_preprocess().
+ * @param $variables
+ * @param $hook
+ */
+function fapps_admin_lte_preprocess(&$variables, $hook)
+{
+    // Load the current user.
+    /** @var User $user */
+    $user = User::load(\Drupal::currentUser()->id());
+// get field data from that user
+    $full_name = $user->get('field_full_name')->getValue();
+    $su_id = $user->get('field_su_id')->getValue();
+    $su_id = reset($su_id)['value'];
+    $variables['full_name'] = reset($full_name);
+    $variables['avatar'] = sprintf('https://www.sabanciuniv.edu/rehber/fotograflar/%s.jpg', $su_id );
+}

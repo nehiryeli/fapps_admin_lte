@@ -7,6 +7,10 @@ package: Core
 core: 8.x
 core_version_requirement: ^8 || ^9
 
+# Dependencies
+dependencies:
+  - su_directory
+
 # Libraries
 libraries:
   - fapps_admin_lte/global-styling # Library for all global css. These css will be loaded on every pages.

@@ -24,3 +24,12 @@ global-scripts:
     - core/drupal
     - core/jquery
 
+select2:
+  version: 4.0.13
+  js:
+    node_modules/select2/dist/js/select2.min.js: {}
+  css:
+    component:
+      node_modules/select2/dist/css/select2.min.css: {}
+  dependencies:
+    - core/jquery
